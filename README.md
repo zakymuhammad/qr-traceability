@@ -27,12 +27,22 @@ Aplikasi web traceability berbasis PHP + MySQL dengan QR Code untuk mencatat dan
 - **Auto-generate QR Code** via `api.qrserver.com` dengan fallback cURL/`file_get_contents`.
 - **Validasi keamanan**: prepared statements (PDO), session-based auth, sanitasi output XSS.
 
+## 📸 Preview
+
+| Login | Dashboard Admin |
+|---|---|
+| ![Login](docs/screenshots/login.png) | ![Dashboard](docs/screenshots/dashboard.png) |
+
+| Validasi & Revisi (Admin) | Scan QR (Publik) |
+|---|---|
+| ![Validasi](docs/screenshots/admin-validasi.png) | ![Scan QR](docs/screenshots/scan-qr.png) |
+
 ## 📁 Struktur Folder
 
 ```
 qr-traceability/
 ├── docs/
-│   └── screenshots/
+│   └── screenshots/           # Screenshot untuk README
 │       ├── login.png
 │       ├── dashboard.png
 │       ├── admin-validasi.png
