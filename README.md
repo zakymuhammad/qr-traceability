@@ -7,7 +7,7 @@
 
 Aplikasi web traceability berbasis PHP + MySQL dengan QR Code untuk mencatat dan memverifikasi riwayat budidaya pertanian dari ladang ke konsumen.
 
-> 📌 Dibangun sebagai proyek akademik untuk mata kuliah Pemrograman Web (Teknik Informatika, UIN Maulana Malik Ibrahim Malang).
+> 📌 Dibangun sebagai proyek akademik untuk mata kuliah Praktikum Software Engineering (Teknik Informatika, UIN Maulana Malik Ibrahim Malang).
 
 ## 🧱 Tech Stack
 
