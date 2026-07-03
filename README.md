@@ -31,6 +31,12 @@ Aplikasi web traceability berbasis PHP + MySQL dengan QR Code untuk mencatat dan
 
 ```
 qr-traceability/
+├── docs/
+│   └── screenshots/
+│       ├── login.png
+│       ├── dashboard.png
+│       ├── admin-validasi.png
+│       └── scan-qr.png
 ├── config/
 │   └── database.php          # Koneksi PDO MySQL
 ├── includes/
