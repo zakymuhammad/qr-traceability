@@ -1,6 +1,22 @@
 # 🌿 QR Traceability — Sistem Penelusuran Rantai Tani
 
+![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4?logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-5.7%2B-4479A1?logo=mysql&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-academic%20project-blue)
+
 Aplikasi web traceability berbasis PHP + MySQL dengan QR Code untuk mencatat dan memverifikasi riwayat budidaya pertanian dari ladang ke konsumen.
+
+> 📌 Dibangun sebagai proyek akademik untuk mata kuliah Pemrograman Web (Teknik Informatika, UIN Maulana Malik Ibrahim Malang).
+
+## 🧱 Tech Stack
+
+| Layer | Teknologi |
+|---|---|
+| Backend | PHP 8+ (native, tanpa framework) |
+| Database | MySQL / MariaDB (PDO, prepared statements) |
+| Frontend | HTML, CSS custom (tanpa CSS framework), vanilla JS |
+| QR Generator | [api.qrserver.com](https://goqr.me/api/) |
 
 ## ✨ Fitur
 
@@ -93,8 +109,8 @@ Buka **`http://localhost/qr-traceability/`** dan login dengan:
 
 | Role | Username | Password |
 |---|---|---|
-| Admin | `admin` | `admin123` |
-| Mitra Tani | `petani1` | `petani123` |
+| Admin | `admin` | `password` |
+| Mitra Tani | `petani1` | `123456` |
 
 ## 🔄 Alur Penggunaan
 
@@ -132,3 +148,19 @@ Buka **`http://localhost/qr-traceability/`** dan login dengan:
 ## 📝 Catatan
 
 Project ini disusun sebagai progres UAS dengan fokus implementasi penuh: tampilan + database + logika CRUD + validasi + QR generation. Silakan dikembangkan lebih lanjut (multi-bahasa, notifikasi email, dashboard real-time, dll.).
+
+## 🗺 Rencana Pengembangan
+
+- [ ] Migrasi ke framework (Laravel/CodeIgniter) untuk struktur MVC yang lebih rapi
+- [ ] Notifikasi email saat validasi disetujui/ditolak
+- [ ] Dashboard statistik real-time dengan chart
+- [ ] Multi-bahasa (ID/EN)
+- [ ] Unit testing untuk logika validasi
+
+## 🤝 Kontribusi
+
+Pull request dan issue sangat terbuka. Untuk perubahan besar, silakan buka issue dulu untuk didiskusikan.
+
+## 📄 Lisensi
+
+Project ini menggunakan lisensi [MIT](LICENSE) — bebas digunakan, dimodifikasi, dan didistribusikan ulang dengan mencantumkan atribusi.
